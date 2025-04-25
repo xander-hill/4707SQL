@@ -1,0 +1,12 @@
+CREATE TABLE CUSTOMER
+    ( FName VARCHAR(15) NOT NULL,
+    LName VARCHAR(15) NOT NULL,
+    State CHAR(2) NOT NULL,
+    Zip CHAR(5) NOT NULL,
+    City VARCHAR(15) NOT NULL,
+    Street VARCHAR(30) NOT NULL,
+    Email VARCHAR(50) NOT NULL UNIQUE,
+    PhoneNum CHAR(10) NOT NULL,
+    CustomerID CHAR(10) NOT NULL,
+    PRIMARY KEY (CustomerID)
+    );
